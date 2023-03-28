@@ -11,6 +11,3 @@ def words():
 
 words()
 
-txt = 'hello world, I love to eat food'
-x = txt.title()
-print(x)
