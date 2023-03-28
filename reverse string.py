@@ -1,8 +1,11 @@
 # Reverse a String
 
-word = input('Enter a word: ')
 
-def words():
+
+def reverse_word():
+
+    word = input('Enter a word: ')
+
     reversed_word = ''
 
     for index in range(len(word)-1,-1,-1):
@@ -10,4 +13,5 @@ def words():
 
     print(reversed_word)
 
-words()
+reverse_word()
+
