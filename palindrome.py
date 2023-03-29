@@ -8,8 +8,8 @@ word = input('Enter a word: ')
 
 words = ''
 
-for index in range(len(word),0,-1):
-    words += word[index-1]
+for index in range(len(word)-1,-1,-1):
+    words += word[index]
 
 if words == word:
     print('It is a palindrome')
